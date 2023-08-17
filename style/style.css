@@ -1,0 +1,217 @@
+body{
+    width: 100%;
+    margin: 0px;
+    padding:0px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 12pt;
+    color: #333;
+}
+h1,h2,h3{
+    font-family: 'Caveat', cursive;
+}
+.logo{
+    background:url('../img/logobg.png');
+}
+.logo img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 190px;
+}
+.nav-container{
+    background-color: #f2b70d;
+    padding: 10px;
+}
+.nav-container nav{
+    text-align: center;
+}
+.nav-container nav a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Caveat', cursive;
+    font-size: 20pt;
+    padding: 0px 20px;
+}
+.nav-container nav a:hover{
+    color: red;
+    font-size: 18pt;
+}
+.about{
+    background:url('../img/logobg.png');
+    text-align: center;
+    padding: 100px;
+}
+.about p{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    background-color: #ecdfb8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.price-table{
+    width: 100%;
+}
+.price{
+    width: 50px;
+    text-align: right;
+}
+.menu-container{
+    max-width: 1300px;
+    margin: 10px auto;
+    display: table;
+}
+.menu-div{
+    width:50%;
+    display: inline-block;
+    float: left;
+}
+.img-menu{
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.img-menu:hover{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.product-img img{
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.menu-div-4{
+    width:25%;
+    display: inline-block;
+    float: left;
+}
+
+/*Chef*/
+.flip-container {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+    border: 1px solid #ccc;
+    display: inline-block;
+    float: left;
+    margin: 5px;
+}
+.flip-container:hover .flipper,  
+.flip-container.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.flip-container, .front, .back {
+	width: 300px;
+	height: 430px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 18px grey;
+    background: gray;
+}
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+    -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	background: #f8f8f8;
+}
+.back p{
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 150px;
+}
+.back div{
+    text-align: center;
+}
+.chef1 {
+	background: url('../img/c1.jpg') 0 0 no-repeat;
+	z-index: 2;
+}
+.chef2 {
+	background: url('../img/c2.jpg') 0 0 no-repeat;
+	z-index: 2;
+}
+.chef3 {
+	background: url('../img/c3.jpg') 0 0 no-repeat;
+	z-index: 2;
+}
+.chef4 {
+	background: url('../img/c4.jpg') 0 0 no-repeat;
+	z-index: 2;
+}
+.order-btn{
+    font-size: 31px;
+    padding: 14px 48px;
+    background-color: #ff0d0d;
+    color: white;
+    border-radius: 13px;
+    margin-bottom: 63px;
+    border: none;
+    cursor: pointer;
+}
+.order-btn:hover{
+    background-color: #ffb04d;
+}
+.footer-container{
+    background-color:#dbdbdb;
+}
+.footer{
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 80px 0px;
+}
+.fa-brands{
+    font-size: 18pt;
+    padding-left: 20px;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer a img{
+    height: 50px;
+    margin-bottom: 36px;
+}
+.footer-items{
+    width: 629px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.socialicon{
+    width: 244px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.copy{
+    text-align: center;
+    margin-top: 10px;
+}
